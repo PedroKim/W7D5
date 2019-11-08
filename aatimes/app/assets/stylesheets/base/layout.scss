@@ -67,3 +67,16 @@ a:hover {
 	height: 100%;
 	object-fit: cover;
 }
+
+@media all and (max-width: 1000px) {
+  .right-nav button {
+	  display: none;
+  }
+  .language-nav {
+	  display: none;
+  }
+  .sections-nav {
+	  display: none;
+  }
+
+}
