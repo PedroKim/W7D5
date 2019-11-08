@@ -1,0 +1,108 @@
+main {
+    margin-top: 20px;
+}
+main section h3 {
+    font-weight: 900;
+    font-family: $serif;
+    font-size: 13px;
+}
+
+main section.col-2-10 h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+main ul li {
+    list-style: disc;
+    margin: 8px 0 8px 15px;
+}
+
+main .col-7-10 .inner-col{
+    margin-bottom: 30px;
+}
+
+main .col-1-2 ul li {
+    font-weight: 700;
+    margin: 3px 0 3px 15px;
+}
+
+main .col-5-10 hr.hr-middle{
+    width: 50%;
+    margin: 10px auto;
+}
+
+main p {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+main figure iframe {
+    width: 100%;
+}
+main figure figcaption {
+    padding: 15px 0 5px;
+    font-size: 13px;
+}
+
+main .comments a {
+    color: $blue;
+    font-family: $sans-serif;
+    font-size: 11px;
+    padding-left: 10px;
+}
+main .comments {
+    position: relative;
+}
+main .comments:after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 5px;
+    background-color: $blue;
+    position: absolute;
+    top: 3px;
+}
+
+main .author {
+    margin: 5px 0;
+    color: $gray;
+    font-weight: 700;
+}
+
+main .op-cat {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+main h2 {
+  font-weight: 900;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+main .signup-header {
+    margin-top: 10px;
+}
+
+main .signup {
+    display: flex;
+    margin: 10px 0;
+}
+main .signup input {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid $gray;
+    padding: 0 15px;
+    font-family: $sans-serif;
+}
+main .signup button {
+    border-radius: 0 3px 3px 0;
+}
+main small {
+    color: $gray;
+    text-align: center;
+    font-family: $sans-serif;
+    font-size: 11px;
+    margin-bottom: 30px;
+}

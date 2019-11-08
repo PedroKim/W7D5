@@ -1,19 +1,66 @@
+main {
+  display: flex;
+}
+
 .col {
-  // ...
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.inner-col {
+  display: flex;
+}
+
+.col-2-10 {
+  flex: 20%;
+}
+
+.col-5-10 {
+  flex: 50%;
+}
+
+.col-7-10 {
+  flex: 70%;
+}
+
+.col-3-10 {
+  flex: 30%;
+}
+
+.col-1-2 {
+  flex: 50%;
 }
 
 /* Attribute selector targeting all elements
 with a class attribute containing 'col-' */
 [class*='col-'] {
-  // ...
+  // display: flex;
+  padding-right: 20px;
 }
 
 [class*='col-']:last-of-type {
-  // ...
+  padding-right: 0;
 }
 
 @media all and (max-width: 1000px) {
   [class*='col-'] {
-    // width:
+
+  }
+  .main-nav {
+    height: 60px;
+  }
+
+  main {
+    display: block;
+  }
+  .inner-col {
+    display: block;
+  }
+  .col-3-10 h2 {
+    margin-top: 20px;
+  }
+  .comments {
+    margin-bottom: 20px;
   }
 }
